@@ -1,0 +1,14 @@
+ the constructor() we are taking two parameters nlinks - number of links and
+pointA - points of connection.
+Using Composites.stack() function we create the multiple
+rectangular bodies and store it in the rect variable. Using the Composites.chain() function we create the
+chain of the rectangles.
+And then using the Constraints.create() we add the constraints to the chain which connects all the bodies of the chain together like we have string in a necklace.
+We have the break() function which helps us to break the chain.It simply makes the rope body null.
+
+
+
+
+https://brm.io/matter-js/docs/classes/Composites.html
+
+
